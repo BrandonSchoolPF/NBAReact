@@ -1,21 +1,29 @@
 body {
     background-color: rgba(0, 125, 197, 0.849);
+    margin: 0; /* Remove default body margin for clean layout */
 }
 
 h1 {
     font-family: sans-serif;
-}
-
-.title-header {
-    font: 2px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 42px
 }
 
 .title-container {
     display: flex;
-    align-items: flex-start;
+    justify-content: center; /* Center the content horizontally in the body */
+    align-items: flex-start; /* Center the content vertically in the container */
+    height: 1vh; /* Make the container fill the viewport height */
 }
 
-.title-item {
-    margin: auto;
-    border: 10px;
+#logo {
+    display: flex; /* Enables Flexbox for logo div */
+    align-items: center; /* Align items (img and h1) vertically */
+    gap: 5px; /* Adds space between img and h1 */
+}
+
+#logo img {
+    width: 150px; /* Adjust size of the logo */
+    height: auto; /* Maintain aspect ratio */
 }
