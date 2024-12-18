@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(0, 125, 197, 0.849);
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+.title-header {
+    font: 2px;
+}
+
+.title-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.title-item {
+    margin: auto;
+    border: 10px;
+}
